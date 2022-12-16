@@ -21,6 +21,7 @@ export const Home = () => {
           <ColunaDireita />
         </BoxScroll>
       </Body>
+      <h1>teste</h1>
     </>
   );
 };
