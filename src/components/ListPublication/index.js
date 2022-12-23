@@ -1,5 +1,5 @@
 import React from "react";
-import { PublicacaoItem } from "../PublicacaoItem";
+import { PublicationStory } from "../PublicationStory";
 
 const listaPublicacaoData = [
   {
@@ -17,11 +17,11 @@ const listaPublicacaoData = [
   },
 ];
 
-export const ListaPublicacao = () => {
+export const ListPublication = () => {
   return (
     <>
       {listaPublicacaoData.map((item) => (
-        <PublicacaoItem
+        <PublicationStory
           key={item.nomePerfil}
           iconPerfil={item.iconPerfil}
           nomePerfil={item.nomePerfil}

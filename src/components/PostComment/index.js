@@ -13,7 +13,7 @@ import {
   Button,
 } from "./style";
 
-export const BannerComentarios = (props) => {
+export const PostComment = (props) => {
   const [values, setValues] = useState("");
 
   return (

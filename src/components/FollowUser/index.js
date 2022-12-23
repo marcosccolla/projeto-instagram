@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BoxPerfil, Imagen, NomePerfil, Seguidor, Button } from "./styled";
 
-export const SeguirUsuario = (props) => {
+export const FollowUser = (props) => {
   const [seguir, setSeguir] = useState(false);
 
   const seguirUsuario = () => {

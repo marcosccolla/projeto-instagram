@@ -4,13 +4,13 @@ import { BsFillHouseDoorFill } from "react-icons/bs";
 import { GoSearch } from "react-icons/go";
 import { MdOutlineExplore } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
-import { MenuNavecao, ImagemLogo, ImagemLogos } from "./style";
+import { BoxNavecao, ImagemLogo, ImagemLogos } from "./style";
 import {
   AiOutlineHeart,
   AiOutlinePlusSquare,
   AiOutlineMenu,
 } from "react-icons/ai";
-import { ListaLateral } from "../ListaLateral";
+import { ListMenu } from "../ListMenu";
 import { SlSocialInstagram } from "react-icons/sl";
 
 const Data = [
@@ -56,22 +56,22 @@ const Data = [
   },
 ];
 
-export const BannerLeft = () => {
+export const NavigationMenu = () => {
   return (
-    <MenuNavecao>
+    <BoxNavecao>
       <ImagemLogo src="../../imagem/instagram-logo.png" />
       <ImagemLogos>
         <SlSocialInstagram />
       </ImagemLogos>
 
       {Data.map((item) => (
-        <ListaLateral
+        <ListMenu
           key={item.titulo}
           icon={item.icon}
           titulo={item.titulo}
           image={item.image}
         />
       ))}
-    </MenuNavecao>
+    </BoxNavecao>
   );
 };

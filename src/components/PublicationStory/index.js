@@ -1,9 +1,9 @@
 import React from "react";
 import { IoIosMore } from "react-icons/io";
 import { Header, Image, Imagem, Cabe, BoxCard } from "./style";
-import { BannerComentarios } from "../BannerComentarios/index";
+import { PostComment } from "../PostComment/index";
 
-export const PublicacaoItem = (props) => {
+export const PublicationStory = (props) => {
   return (
     <BoxCard>
       <Header>
@@ -14,7 +14,7 @@ export const PublicacaoItem = (props) => {
         <IoIosMore />
       </Header>
       <Imagem src={props.imagemPrincipal} />
-      <BannerComentarios
+      <PostComment
         nomePerfil={props.nomePerfil}
         totalCurtidas={props.totalCurtidas}
       />

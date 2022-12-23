@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, ImagemPerfil, Titulo } from "./styled";
 
-export const ListaLateral = (props) => {
+export const ListMenu = (props) => {
   return (
     <Link href="/">
       {props.icon}

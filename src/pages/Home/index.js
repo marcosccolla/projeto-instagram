@@ -1,24 +1,24 @@
 import React from "react";
-import { BannerLeft } from "../../components/Bannerleft";
-import { BannerStories } from "../../components/BannerStories";
-import { ColunaDireita } from "../../components/ColunaDireita";
-import { ListaPublicacao } from "./../../components/ListaPublicacao";
+import { NavigationMenu } from "../../components/NavigationMenu";
+import { Story } from "../../components/Story";
+import { PostProfile } from "../../components/PostProfile";
+import { ListPublication } from "../../components/ListPublication";
 
 import { Body, ColunaPrincipal, BoxScroll } from "./styled";
-import { Cabecalho } from "./../../components/Cabecalho/index";
+import { Header } from "./../../components/Header";
 
 export const Home = () => {
   return (
     <>
-      <Cabecalho />
+      <Header />
       <Body>
-        <BannerLeft />
+        <NavigationMenu />
         <BoxScroll>
           <ColunaPrincipal>
-            <BannerStories />
-            <ListaPublicacao />
+            <Story />
+            <ListPublication />
           </ColunaPrincipal>
-          <ColunaDireita />
+          <PostProfile />
         </BoxScroll>
       </Body>
     </>

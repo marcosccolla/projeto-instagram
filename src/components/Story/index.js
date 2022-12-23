@@ -1,7 +1,6 @@
 import React from "react";
 import { BannerStore, BoxScroll } from "./style";
-import { ListaStorie } from "./../ListaStorie/index";
-// import { AiOutlineHeart } from "react-icons/ai";
+import { ListStory } from "../ListStory";
 
 const Icons = [
   {
@@ -30,12 +29,12 @@ const Icons = [
   },
 ];
 
-export const BannerStories = () => {
+export const Story = () => {
   return (
     <BoxScroll>
       <BannerStore>
         {Icons.map((item) => (
-          <ListaStorie
+          <ListStory
             key={item.titulo}
             image={item.image}
             titulo={item.titulo}

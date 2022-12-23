@@ -1,7 +1,7 @@
 import React from "react";
 import { ImagemIcon, Storie, Subtitu, BoxImg } from "./style";
 
-export const ListaStorie = (props) => {
+export const ListStory = (props) => {
   return (
     <Storie>
       <BoxImg>

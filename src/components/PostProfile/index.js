@@ -1,5 +1,5 @@
 import React from "react";
-import { SeguirUsuario } from "../SeguirUsuario";
+import { FollowUser } from "../FollowUser";
 import {
   Image,
   Box,
@@ -48,7 +48,7 @@ const Data = [
     subtitulo: "seguida por Mara",
   },
 ];
-export const ColunaDireita = () => {
+export const PostProfile = () => {
   return (
     <Box>
       <BoxPerfil>
@@ -64,7 +64,7 @@ export const ColunaDireita = () => {
         <Button>Ver tudo </Button>
       </Boxsug>
       {Data.map((item) => (
-        <SeguirUsuario
+        <FollowUser
           key={item.id}
           imagem={item.imagem}
           titulo={item.titulo}

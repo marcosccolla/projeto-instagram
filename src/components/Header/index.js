@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
 import { Imagem, Box, BoxInput, Input } from "./style";
 
-export const Cabecalho = () => {
+export const Header = () => {
   const [values, setValues] = useState("");
   return (
     <Box>
