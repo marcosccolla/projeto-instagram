@@ -6,7 +6,7 @@ export const Header = () => {
   const [values, setValues] = useState("");
   return (
     <Box>
-      <Imagem src="/imagem/instagram-logo.png" alt="" />
+      <Imagem src="../imagem/instagram-Logo.png" alt="logo" />
       <BoxInput>
         <Input
           type="text"
