@@ -59,7 +59,7 @@ const Data = [
 export const NavigationMenu = () => {
   return (
     <BoxNavecao>
-      <ImagemLogo src="../../imagem/instagram-logo.png" />
+      <ImagemLogo src="/imagem/instagram-logo.png" />
       <ImagemLogos>
         <SlSocialInstagram />
       </ImagemLogos>
